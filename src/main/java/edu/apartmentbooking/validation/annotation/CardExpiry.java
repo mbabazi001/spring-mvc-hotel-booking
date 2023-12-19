@@ -1,6 +1,6 @@
-package edu.viviane.apartmentbookingapp.validation.annotation;
+package edu.apartmentbooking.validation.annotation;
 
-import edu.viviane.apartmentbookingapp.validation.validator.CardExpiryValidator;
+import edu.apartmentbooking.validation.validator.CardExpiryValidator;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 

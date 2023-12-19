@@ -1,7 +1,7 @@
-package edu.viviane.apartmentbookingapp.service;
+package edu.apartmentbooking.service;
 
-import edu.viviane.apartmentbookingapp.model.Address;
-import edu.viviane.apartmentbookingapp.model.dto.AddressDTO;
+import edu.apartmentbooking.model.Address;
+import edu.apartmentbooking.model.dto.AddressDTO;
 
 public interface AddressService {
 

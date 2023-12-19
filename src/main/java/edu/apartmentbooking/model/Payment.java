@@ -1,8 +1,8 @@
-package edu.viviane.apartmentbookingapp.model;
+package edu.apartmentbooking.model;
 
-import edu.viviane.apartmentbookingapp.model.enums.Currency;
-import edu.viviane.apartmentbookingapp.model.enums.PaymentMethod;
-import edu.viviane.apartmentbookingapp.model.enums.PaymentStatus;
+import edu.apartmentbooking.model.enums.Currency;
+import edu.apartmentbooking.model.enums.PaymentMethod;
+import edu.apartmentbooking.model.enums.PaymentStatus;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;

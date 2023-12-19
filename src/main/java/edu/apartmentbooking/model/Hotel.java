@@ -1,4 +1,4 @@
-package edu.viviane.apartmentbookingapp.model;
+package edu.apartmentbooking.model;
 
 import jakarta.persistence.*;
 import lombok.*;

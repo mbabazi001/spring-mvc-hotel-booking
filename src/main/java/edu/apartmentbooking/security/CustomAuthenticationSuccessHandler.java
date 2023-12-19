@@ -1,4 +1,4 @@
-package edu.viviane.apartmentbookingapp.security;
+package edu.apartmentbooking.security;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

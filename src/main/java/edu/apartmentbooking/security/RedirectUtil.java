@@ -1,4 +1,4 @@
-package edu.viviane.apartmentbookingapp.security;
+package edu.apartmentbooking.security;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;

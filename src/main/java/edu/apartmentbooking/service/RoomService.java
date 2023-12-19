@@ -1,8 +1,8 @@
-package edu.viviane.apartmentbookingapp.service;
+package edu.apartmentbooking.service;
 
-import edu.viviane.apartmentbookingapp.model.Hotel;
-import edu.viviane.apartmentbookingapp.model.Room;
-import edu.viviane.apartmentbookingapp.model.dto.RoomDTO;
+import edu.apartmentbooking.model.Hotel;
+import edu.apartmentbooking.model.Room;
+import edu.apartmentbooking.model.dto.RoomDTO;
 
 import java.util.List;
 import java.util.Optional;

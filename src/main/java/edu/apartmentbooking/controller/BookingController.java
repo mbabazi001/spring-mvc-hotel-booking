@@ -1,9 +1,10 @@
-package edu.viviane.apartmentbookingapp.controller;
+package edu.apartmentbooking.controller;
 
-import edu.viviane.apartmentbookingapp.service.BookingService;
-import edu.viviane.apartmentbookingapp.service.HotelService;
-import edu.viviane.apartmentbookingapp.service.UserService;
-import edu.viviane.apartmentbookingapp.model.dto.*;
+import edu.apartmentbooking.model.dto.*;
+import edu.apartmentbooking.service.BookingService;
+import edu.apartmentbooking.service.HotelService;
+import edu.apartmentbooking.service.UserService;
+import edu.apartmentbooking.model.dto.*;
 import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

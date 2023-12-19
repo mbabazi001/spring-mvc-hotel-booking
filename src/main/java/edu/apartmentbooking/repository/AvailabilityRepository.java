@@ -1,6 +1,6 @@
-package edu.viviane.apartmentbookingapp.repository;
+package edu.apartmentbooking.repository;
 
-import edu.viviane.apartmentbookingapp.model.Availability;
+import edu.apartmentbooking.model.Availability;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

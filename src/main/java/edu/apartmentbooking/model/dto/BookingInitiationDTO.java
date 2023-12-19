@@ -1,4 +1,4 @@
-package edu.viviane.apartmentbookingapp.model.dto;
+package edu.apartmentbooking.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

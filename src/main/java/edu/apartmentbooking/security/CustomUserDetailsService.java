@@ -1,7 +1,7 @@
-package edu.viviane.apartmentbookingapp.security;
+package edu.apartmentbooking.security;
 
-import edu.viviane.apartmentbookingapp.model.User;
-import edu.viviane.apartmentbookingapp.repository.UserRepository;
+import edu.apartmentbooking.model.User;
+import edu.apartmentbooking.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

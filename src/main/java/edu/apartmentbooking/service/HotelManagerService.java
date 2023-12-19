@@ -1,7 +1,7 @@
-package edu.viviane.apartmentbookingapp.service;
+package edu.apartmentbooking.service;
 
-import edu.viviane.apartmentbookingapp.model.HotelManager;
-import edu.viviane.apartmentbookingapp.model.User;
+import edu.apartmentbooking.model.HotelManager;
+import edu.apartmentbooking.model.User;
 
 public interface HotelManagerService {
 

@@ -1,6 +1,6 @@
-package edu.viviane.apartmentbookingapp.model.dto;
+package edu.apartmentbooking.model.dto;
 
-import edu.viviane.apartmentbookingapp.model.enums.RoomType;
+import edu.apartmentbooking.model.enums.RoomType;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.PositiveOrZero;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package edu.viviane.apartmentbookingapp.exception;
+package edu.apartmentbooking.exception;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.web.bind.annotation.ControllerAdvice;

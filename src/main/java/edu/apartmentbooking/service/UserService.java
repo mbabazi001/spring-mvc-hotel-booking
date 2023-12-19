@@ -1,9 +1,9 @@
-package edu.viviane.apartmentbookingapp.service;
+package edu.apartmentbooking.service;
 
-import edu.viviane.apartmentbookingapp.model.User;
-import edu.viviane.apartmentbookingapp.model.dto.ResetPasswordDTO;
-import edu.viviane.apartmentbookingapp.model.dto.UserDTO;
-import edu.viviane.apartmentbookingapp.model.dto.UserRegistrationDTO;
+import edu.apartmentbooking.model.User;
+import edu.apartmentbooking.model.dto.ResetPasswordDTO;
+import edu.apartmentbooking.model.dto.UserDTO;
+import edu.apartmentbooking.model.dto.UserRegistrationDTO;
 
 import java.util.List;
 

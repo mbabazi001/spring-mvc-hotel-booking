@@ -1,4 +1,4 @@
-package edu.viviane.apartmentbookingapp.controller;
+package edu.apartmentbooking.controller;
 
 /*@Controller
 @RequiredArgsConstructor

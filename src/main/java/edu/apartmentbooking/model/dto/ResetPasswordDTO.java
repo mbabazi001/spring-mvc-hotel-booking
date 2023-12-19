@@ -1,4 +1,4 @@
-package edu.viviane.apartmentbookingapp.model.dto;
+package edu.apartmentbooking.model.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

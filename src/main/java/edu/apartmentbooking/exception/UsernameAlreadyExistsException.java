@@ -1,4 +1,4 @@
-package edu.viviane.apartmentbookingapp.exception;
+package edu.apartmentbooking.exception;
 
 public class UsernameAlreadyExistsException extends RuntimeException {
 

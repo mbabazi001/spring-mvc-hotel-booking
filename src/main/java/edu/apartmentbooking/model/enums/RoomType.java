@@ -1,4 +1,4 @@
-package edu.viviane.apartmentbookingapp.model.enums;
+package edu.apartmentbooking.model.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

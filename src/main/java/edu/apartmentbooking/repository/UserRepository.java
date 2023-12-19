@@ -1,6 +1,6 @@
-package edu.viviane.apartmentbookingapp.repository;
+package edu.apartmentbooking.repository;
 
-import edu.viviane.apartmentbookingapp.model.User;
+import edu.apartmentbooking.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

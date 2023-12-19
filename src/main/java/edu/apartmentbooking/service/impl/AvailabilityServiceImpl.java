@@ -1,14 +1,14 @@
-package edu.viviane.apartmentbookingapp.service.impl;
+package edu.apartmentbooking.service.impl;
 
-import edu.viviane.apartmentbookingapp.model.Availability;
-import edu.viviane.apartmentbookingapp.model.Hotel;
-import edu.viviane.apartmentbookingapp.model.Room;
-import edu.viviane.apartmentbookingapp.model.dto.RoomSelectionDTO;
-import edu.viviane.apartmentbookingapp.model.enums.RoomType;
-import edu.viviane.apartmentbookingapp.repository.AvailabilityRepository;
-import edu.viviane.apartmentbookingapp.service.AvailabilityService;
-import edu.viviane.apartmentbookingapp.service.HotelService;
-import edu.viviane.apartmentbookingapp.service.RoomService;
+import edu.apartmentbooking.model.Availability;
+import edu.apartmentbooking.model.Hotel;
+import edu.apartmentbooking.model.Room;
+import edu.apartmentbooking.model.dto.RoomSelectionDTO;
+import edu.apartmentbooking.model.enums.RoomType;
+import edu.apartmentbooking.repository.AvailabilityRepository;
+import edu.apartmentbooking.service.AvailabilityService;
+import edu.apartmentbooking.service.HotelService;
+import edu.apartmentbooking.service.RoomService;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

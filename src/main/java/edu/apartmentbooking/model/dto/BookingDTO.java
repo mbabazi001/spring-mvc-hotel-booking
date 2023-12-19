@@ -1,7 +1,7 @@
-package edu.viviane.apartmentbookingapp.model.dto;
+package edu.apartmentbooking.model.dto;
 
-import edu.viviane.apartmentbookingapp.model.enums.PaymentMethod;
-import edu.viviane.apartmentbookingapp.model.enums.PaymentStatus;
+import edu.apartmentbooking.model.enums.PaymentMethod;
+import edu.apartmentbooking.model.enums.PaymentStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

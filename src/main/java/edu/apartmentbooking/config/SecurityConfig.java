@@ -1,6 +1,6 @@
-package edu.viviane.apartmentbookingapp.config;
+package edu.apartmentbooking.config;
 
-import edu.viviane.apartmentbookingapp.security.CustomAuthenticationSuccessHandler;
+import edu.apartmentbooking.security.CustomAuthenticationSuccessHandler;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

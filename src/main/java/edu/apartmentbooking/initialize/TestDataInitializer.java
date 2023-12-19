@@ -1,11 +1,11 @@
-package edu.viviane.apartmentbookingapp.initialize;
+package edu.apartmentbooking.initialize;
 
-import edu.viviane.apartmentbookingapp.model.*;
-import edu.viviane.apartmentbookingapp.model.enums.RoleType;
-import edu.viviane.apartmentbookingapp.model.enums.RoomType;
-import edu.viviane.apartmentbookingapp.repository.*;
-import edu.viviane.apartmentbookingapp.model.*;
-import edu.viviane.apartmentbookingapp.repository.*;
+import edu.apartmentbooking.model.*;
+import edu.apartmentbooking.model.enums.RoleType;
+import edu.apartmentbooking.model.enums.RoomType;
+import edu.apartmentbooking.repository.*;
+import edu.apartmentbooking.repository.*;
+import edu.apartmentbooking.model.*;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

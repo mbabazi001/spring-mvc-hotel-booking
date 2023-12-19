@@ -1,6 +1,6 @@
-package edu.viviane.apartmentbookingapp.service;
+package edu.apartmentbooking.service;
 
-import edu.viviane.apartmentbookingapp.model.Customer;
+import edu.apartmentbooking.model.Customer;
 
 import java.util.Optional;
 

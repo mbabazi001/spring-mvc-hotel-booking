@@ -1,8 +1,8 @@
-package edu.viviane.apartmentbookingapp.service.impl;
+package edu.apartmentbooking.service.impl;
 
-import edu.viviane.apartmentbookingapp.model.Customer;
-import edu.viviane.apartmentbookingapp.repository.CustomerRepository;
-import edu.viviane.apartmentbookingapp.service.CustomerService;
+import edu.apartmentbooking.model.Customer;
+import edu.apartmentbooking.repository.CustomerRepository;
+import edu.apartmentbooking.service.CustomerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

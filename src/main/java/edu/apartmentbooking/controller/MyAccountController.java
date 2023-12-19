@@ -1,8 +1,8 @@
-package edu.viviane.apartmentbookingapp.controller;
+package edu.apartmentbooking.controller;
 
-import edu.viviane.apartmentbookingapp.exception.UsernameAlreadyExistsException;
-import edu.viviane.apartmentbookingapp.model.dto.UserDTO;
-import edu.viviane.apartmentbookingapp.service.UserService;
+import edu.apartmentbooking.model.dto.UserDTO;
+import edu.apartmentbooking.exception.UsernameAlreadyExistsException;
+import edu.apartmentbooking.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -1,6 +1,6 @@
-package edu.viviane.apartmentbookingapp.model;
+package edu.apartmentbooking.model;
 
-import edu.viviane.apartmentbookingapp.model.enums.RoleType;
+import edu.apartmentbooking.model.enums.RoleType;
 import jakarta.persistence.*;
 import lombok.*;
 

@@ -1,6 +1,6 @@
-package edu.viviane.apartmentbookingapp.model.dto;
+package edu.apartmentbooking.model.dto;
 
-import edu.viviane.apartmentbookingapp.model.enums.RoleType;
+import edu.apartmentbooking.model.enums.RoleType;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

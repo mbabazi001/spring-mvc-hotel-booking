@@ -1,13 +1,13 @@
-package edu.viviane.apartmentbookingapp.service.impl;
+package edu.apartmentbooking.service.impl;
 
-import edu.viviane.apartmentbookingapp.model.Booking;
-import edu.viviane.apartmentbookingapp.model.Payment;
-import edu.viviane.apartmentbookingapp.model.dto.BookingInitiationDTO;
-import edu.viviane.apartmentbookingapp.model.enums.Currency;
-import edu.viviane.apartmentbookingapp.model.enums.PaymentMethod;
-import edu.viviane.apartmentbookingapp.model.enums.PaymentStatus;
-import edu.viviane.apartmentbookingapp.repository.PaymentRepository;
-import edu.viviane.apartmentbookingapp.service.PaymentService;
+import edu.apartmentbooking.model.Booking;
+import edu.apartmentbooking.model.Payment;
+import edu.apartmentbooking.model.dto.BookingInitiationDTO;
+import edu.apartmentbooking.model.enums.Currency;
+import edu.apartmentbooking.model.enums.PaymentMethod;
+import edu.apartmentbooking.model.enums.PaymentStatus;
+import edu.apartmentbooking.repository.PaymentRepository;
+import edu.apartmentbooking.service.PaymentService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

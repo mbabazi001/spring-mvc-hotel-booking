@@ -1,4 +1,4 @@
-package edu.viviane.apartmentbookingapp;
+package edu.apartmentbooking;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

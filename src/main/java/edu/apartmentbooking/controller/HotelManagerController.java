@@ -1,14 +1,14 @@
-package edu.viviane.apartmentbookingapp.controller;
+package edu.apartmentbooking.controller;
 
-import edu.viviane.apartmentbookingapp.exception.HotelAlreadyExistsException;
-import edu.viviane.apartmentbookingapp.model.dto.BookingDTO;
-import edu.viviane.apartmentbookingapp.model.enums.RoomType;
-import edu.viviane.apartmentbookingapp.model.dto.HotelDTO;
-import edu.viviane.apartmentbookingapp.model.dto.HotelRegistrationDTO;
-import edu.viviane.apartmentbookingapp.model.dto.RoomDTO;
-import edu.viviane.apartmentbookingapp.service.BookingService;
-import edu.viviane.apartmentbookingapp.service.HotelService;
-import edu.viviane.apartmentbookingapp.service.UserService;
+import edu.apartmentbooking.model.dto.BookingDTO;
+import edu.apartmentbooking.model.dto.HotelDTO;
+import edu.apartmentbooking.model.dto.HotelRegistrationDTO;
+import edu.apartmentbooking.model.dto.RoomDTO;
+import edu.apartmentbooking.model.enums.RoomType;
+import edu.apartmentbooking.service.BookingService;
+import edu.apartmentbooking.exception.HotelAlreadyExistsException;
+import edu.apartmentbooking.service.HotelService;
+import edu.apartmentbooking.service.UserService;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

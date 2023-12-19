@@ -1,8 +1,8 @@
-package edu.viviane.apartmentbookingapp.controller;
+package edu.apartmentbooking.controller;
 
-import edu.viviane.apartmentbookingapp.model.dto.HotelAvailabilityDTO;
-import edu.viviane.apartmentbookingapp.model.dto.HotelSearchDTO;
-import edu.viviane.apartmentbookingapp.service.HotelSearchService;
+import edu.apartmentbooking.model.dto.HotelAvailabilityDTO;
+import edu.apartmentbooking.model.dto.HotelSearchDTO;
+import edu.apartmentbooking.service.HotelSearchService;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
