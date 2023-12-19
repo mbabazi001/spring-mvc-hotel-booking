@@ -46,12 +46,12 @@
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/kayaalpkoker/HotelBookingApp.git
+   git clone https://github.com/mbabazi001/spring-mvc-hotel-booking.git
    ```
    
 2. Navigate to the project directory::
    ```sh
-   cd HotelBookingApp
+   cd spring-mvc-hotel-booking
    ```
    
 3. Install the dependencies::

@@ -1,11 +1,15 @@
-# Use an official OpenJDK runtime as a base image
-FROM openjdk:11-jre-slim
+#
+# Build stage
+#
+FROM maven:3.8.4-jdk-17-slim AS build
+COPY src /home/app/src
+COPY pom.xml /home/app
+RUN mvn -f /home/app/pom.xml clean package
 
-# Set the working directory inside the container
-WORKDIR /app
-
-# Copy the JAR file into the container at /app
-COPY target/your-spring-app.jar /app/your-spring-app.jar
-
-# Specify the default command to run when the container starts
-CMD ["java", "-jar", "your-spring-app.jar"]
+#
+# Package stage
+#
+FROM openjdk:17-jre-slim
+COPY --from=build /home/app/target/Falcon-0.0.1.jar /usr/local/lib/falcon.jar
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","/usr/local/lib/falcon.jar"]
